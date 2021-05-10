@@ -15,7 +15,9 @@
     "log-utils": "^1.0.0",
     "util.log": "0.0.45",
     "vue": "^3.0.0",
+    "vue-audio-visual": "^2.2.2",
     "vue-router": "^4.0.0-0",
+    "vue-uuid": "^2.0.2",
     "vue-web-cam": "^1.9.0"
   },
   "devDependencies": {

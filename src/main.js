@@ -2,8 +2,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import 'tailwindcss/tailwind.css'
-// import VueSignalR from '@latelier/vue-signalr'
-
+import AudioVisual from 'vue-audio-visual'
 const app = createApp(App).use(router)
-// app.use(VueSignalR, 'https://localhost:5001/meetinghub')
+app.use(AudioVisual)
 app.mount('#app')
